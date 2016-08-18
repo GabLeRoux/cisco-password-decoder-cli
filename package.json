@@ -1,0 +1,15 @@
+{
+  "name": "cisco-password-decoder-cli",
+  "version": "1.0.0",
+  "description": "CLI Decoder for password encoding of Cisco VPN client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "node-forge": "^0.6.42"
+  }
+}
