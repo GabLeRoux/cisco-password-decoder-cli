@@ -10,4 +10,4 @@ Exposes a CLI on top of [cisco-password-decoder](https://github.com/artemkin/cis
 
     npm i
     git submodule init
-    git submotdule update --recursive
+    git submodule update --recursive
