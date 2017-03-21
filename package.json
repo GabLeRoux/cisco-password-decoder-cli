@@ -4,12 +4,18 @@
   "description": "CLI Decoder for password encoding of Cisco VPN client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers coffee:coffee-script/register"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cisco-password-decoder": "git://github.com/GabLeRoux/cisco-password-decoder.git#89fe78016e9f195188f26b3860b63fad2e1c22b0",
     "commander": "^2.9.0",
     "node-forge": "^0.6.42"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.12.4",
+    "mocha": "^3.2.0"
   }
 }
