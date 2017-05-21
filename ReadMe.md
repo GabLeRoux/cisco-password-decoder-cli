@@ -4,6 +4,12 @@
 
 Exposes a CLI on top of [cisco-password-decoder](https://github.com/artemkin/cisco-password-decoder)
 
+## Installation
+
+```bash
+yarn global add cisco-password-decoder
+```
+
 ## Usage
 
 ```bash
