@@ -1,4 +1,4 @@
-# cisco-password-decoder CLI
+# `cisco-password-decoder` CLI
 
 [![Build Status](https://travis-ci.org/GabLeRoux/cisco-password-decoder-cli.svg?branch=master)](https://travis-ci.org/GabLeRoux/cisco-password-decoder-cli)
 
@@ -6,16 +6,33 @@ Exposes a CLI on top of [cisco-password-decoder](https://github.com/artemkin/cis
 
 ## Usage
 
-    cisco-password-decoder <your_password>
+```bash
+cisco-password-decoder "your_encoded_password"
+```
 
 ## Dev
 
-    npm i
+Install dependencies
+
+```bash
+npm install -g yarn
+yarn install
+```
 
 ### Test
 
-    npm test
+```bash
+npm test
+```
+
+### Link command line
+
+Install local repository as global command:
+
+```bash
+npm install -g
+```
 
 ## License
 
-MIT © [Gabriel Le Breton](https://gableroux.com)
+[MIT](LICENSE.md) © [Gabriel Le Breton](https://gableroux.com)
