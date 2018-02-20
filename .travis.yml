@@ -2,6 +2,8 @@ os:
   - linux
   - osx
 language: node_js
+env:
+  - NODE_ENV=test
 node_js:
   - "node"
   - "lts/*"
