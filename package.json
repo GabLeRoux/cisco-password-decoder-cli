@@ -2,22 +2,22 @@
   "name": "cisco-password-decoder",
   "version": "1.0.2",
   "description": "CLI Decoder for password encoding of Cisco VPN client",
+  "keywords": [
+    "cisco",
+    "command",
+    "decoder",
+    "password",
+    "test"
+  ],
+  "license": "MIT",
+  "author": "Gabriel Le Breton <lebreton.gabriel@gmail.com>",
   "main": "src/index.coffee",
   "bin": "bin/command.coffee",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register",
     "precommit": "npm test",
-    "prepublish": "pkg-ok"
+    "prepublish": "pkg-ok",
+    "test": "mocha --compilers coffee:coffee-script/register"
   },
-  "keywords": [
-    "cisco",
-    "password",
-    "decoder",
-    "command",
-    "test"
-  ],
-  "author": "Gabriel Le Breton <lebreton.gabriel@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "cisco-password-decoder": "git://github.com/GabLeRoux/cisco-password-decoder.git#89fe78016e9f195188f26b3860b63fad2e1c22b0",
     "coffee-script": "^1.12.4",
