@@ -39,6 +39,13 @@ Install local repository as global command:
 npm install -g
 ```
 
+## Known issues
+
+- This project doesn't work on [iojs](https://iojs.org/), see [#3](https://github.com/GabLeRoux/cisco-password-decoder-cli/issues/3) for details
+- See [other issues](https://github.com/GabLeRoux/cisco-password-decoder-cli/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+
+Feel free to contribute, pull-requests are welcome :v:
+
 ## License
 
 [MIT](LICENSE.md) © [Gabriel Le Breton](https://gableroux.com)
