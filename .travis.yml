@@ -3,5 +3,11 @@ os:
   - osx
 language: node_js
 node_js:
-  - "stable"
+  - "node"
+  - "iojs"
+  - "lts/*"
+  - "8"
+  - "7"
+  - "6"
+  - "5"
   - "4"
