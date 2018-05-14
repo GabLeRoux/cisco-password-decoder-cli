@@ -7,7 +7,7 @@ Exposes a CLI on top of [cisco-password-decoder](https://github.com/artemkin/cis
 ## Installation
 
 ```bash
-yarn global add cisco-password-decoder
+npm i -g cisco-password-decoder
 ```
 
 ## Usage
@@ -21,8 +21,7 @@ cisco-password-decoder "your_encoded_password"
 Install dependencies
 
 ```bash
-npm install -g yarn
-yarn install
+npm i
 ```
 
 ### Test
@@ -36,12 +35,13 @@ npm test
 Install local repository as global command:
 
 ```bash
-npm install -g
+npm i -g
 ```
 
 ## Known issues
 
 - This project doesn't work on [iojs](https://iojs.org/), see [#3](https://github.com/GabLeRoux/cisco-password-decoder-cli/issues/3) for details
+- Tests are failing on Node 5, but command line should work anyway. [#4](https://github.com/GabLeRoux/cisco-password-decoder-cli/issues/4)
 - See [other issues](https://github.com/GabLeRoux/cisco-password-decoder-cli/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
 Feel free to contribute, pull-requests are welcome :v:
