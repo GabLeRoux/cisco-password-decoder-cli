@@ -41,7 +41,6 @@ npm i -g
 ## Known issues
 
 - This project doesn't work on [iojs](https://iojs.org/), see [#3](https://github.com/GabLeRoux/cisco-password-decoder-cli/issues/3) for details
-- Tests are failing on Node 5, but command line should work anyway. [#4](https://github.com/GabLeRoux/cisco-password-decoder-cli/issues/4)
 - See [other issues](https://github.com/GabLeRoux/cisco-password-decoder-cli/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
 Feel free to contribute, pull-requests are welcome :v:
