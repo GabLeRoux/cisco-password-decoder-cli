@@ -1,6 +1,4 @@
-#! /usr/bin/env coffee
-
-decoder = require('../src/index')
+decoder = require('./index')
 
 program = require('commander')
 
