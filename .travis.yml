@@ -5,8 +5,13 @@ language: node_js
 node_js:
   - "node"
   - "lts/*"
+  - "10"
   - "8"
   - "7"
   - "6"
 #  - "5"
 #  - "4"
+
+script:
+- npm run test:codecov
+- ./test/smoke_test.sh

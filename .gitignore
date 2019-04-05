@@ -93,3 +93,4 @@ typings/
 # idea IDE
 .idea
 
+tmp/

@@ -5,7 +5,8 @@
   "bin": "src/command.js",
   "scripts": {
     "start": "src/command.js",
-    "test": "mocha",
+    "test": "nyc --reporter=html --reporter=text mocha",
+    "coverage": "nyc report --reporter=text-lcov && codecov",
     "precommit": "npm test",
     "prepublish": "pkg-ok"
   },
@@ -21,11 +22,13 @@
   "dependencies": {
     "chai": "^4.2.0",
     "cisco-password-decoder": "git://github.com/GabLeRoux/cisco-password-decoder.git#89fe78016e9f195188f26b3860b63fad2e1c22b0",
+    "codecov": "^3.3.0",
     "coffee-script": "^1.12.7",
     "commander": "^2.20.0",
     "husky": "^1.3.1",
     "mocha": "^6.0.2",
     "node-forge": "^0.8.2",
+    "nyc": "^13.3.0",
     "pkg-ok": "^2.3.1"
   }
 }
