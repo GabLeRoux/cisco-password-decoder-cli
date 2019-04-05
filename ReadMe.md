@@ -30,9 +30,7 @@ npm i
 npm test
 ```
 
-### Link command line
-
-Install local repository as global command:
+### Link local repo as global command line
 
 ```bash
 npm i -g
@@ -48,3 +46,4 @@ Feel free to contribute, pull-requests are welcome :v:
 ## License
 
 [MIT](LICENSE.md) © [Gabriel Le Breton](https://gableroux.com)
+
