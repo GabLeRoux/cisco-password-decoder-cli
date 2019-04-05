@@ -2,8 +2,9 @@
 
 const decoder = require('./index');
 const program = require('commander');
+const package = require('../package.json');
 
-program.version('0.0.3')["arguments"]('<password>').action(function (password) {
+program.version(package.version)["arguments"]('<password>').action(function (password) {
     return console.log(decoder.decrypt_password(password));
 });
 
