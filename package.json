@@ -1,6 +1,6 @@
 {
   "name": "cisco-password-decoder",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "CLI Decoder for password encoding of Cisco VPN client",
   "bin": "src/command.js",
   "scripts": {
