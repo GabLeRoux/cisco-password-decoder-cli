@@ -2,11 +2,10 @@
   "name": "cisco-password-decoder",
   "version": "1.0.3",
   "description": "CLI Decoder for password encoding of Cisco VPN client",
-  "bin": "lib/command.js",
+  "bin": "src/command.js",
   "scripts": {
-    "start": "coffee src/command.coffee",
-    "build": "./build.sh",
-    "test": "mocha --compilers coffee:coffee-script/register",
+    "start": "src/command.js",
+    "test": "mocha",
     "precommit": "npm test",
     "prepublish": "pkg-ok"
   },
