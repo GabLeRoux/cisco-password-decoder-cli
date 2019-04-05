@@ -7,7 +7,6 @@
     "start": "src/command.js",
     "test": "nyc --reporter=html --reporter=text mocha",
     "coverage": "nyc report --reporter=text-lcov && codecov",
-    "precommit": "npm test",
     "prepublish": "pkg-ok"
   },
   "keywords": [
@@ -30,5 +29,10 @@
     "node-forge": "^0.8.2",
     "nyc": "^13.3.0",
     "pkg-ok": "^2.3.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
   }
 }
