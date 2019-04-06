@@ -1,6 +1,6 @@
 {
   "name": "cisco-password-decoder",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "CLI Decoder for password encoding of Cisco VPN client",
   "bin": "src/command.js",
   "scripts": {
@@ -19,8 +19,8 @@
   "author": "Gabriel Le Breton <lebreton.gabriel@gmail.com>",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/gableroux/cisco-password-decoder-cli.git"
+    "type": "git",
+    "url": "https://github.com/gableroux/cisco-password-decoder-cli.git"
   },
   "dependencies": {
     "chai": "^4.2.0",
