@@ -18,6 +18,10 @@
   ],
   "author": "Gabriel Le Breton <lebreton.gabriel@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/gableroux/cisco-password-decoder-cli.git"
+  },
   "dependencies": {
     "chai": "^4.2.0",
     "cisco-password-decoder": "git://github.com/GabLeRoux/cisco-password-decoder.git#89fe78016e9f195188f26b3860b63fad2e1c22b0",
